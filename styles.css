@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #6f6969;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: rgb(37, 202, 247);
+}
+
+.section {
+  margin: 40px 0;
+  margin-left: 10px;
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background: #565555;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.skills,
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills div,
+.projects .project {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.resume-link {
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.resume-link:hover {
+  background: #555;
+}
+
+.image {
+  height: 110px;
+  width: 110px;
+  margin-left: 15px;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+  margin-left: 160px;
+}
